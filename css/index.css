@@ -1,0 +1,54 @@
+body {
+    font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
+    color: #333;
+}
+/* 顶部栏 */
+.topBar{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+}
+.container{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+.topBar .list{
+    float: left;
+}
+.topBar .login{
+    float: right;
+}
+.topBar .shoppingCar{
+    float: right;
+    width: 120px;
+    margin-left: 15px;
+    height: 40px;
+    line-height: 40px;
+    /* 文本水平居中 */
+    text-align: center;
+    background-color: #424242;
+}
+.topBar .shoppingCar a{
+    height: 40px;
+    width: 120px;
+    display: inline-block;
+}
+.topBar a{
+    color: #b0b0b0;
+    font-size: 12px;
+    /* 准换成行内块，这样就可以设置宽高 */
+    display: inline-block;
+    line-height: 40px;
+}
+/* 鼠标悬浮时改变颜色 */
+.topBar a:hover{
+    color: #fff;
+}
+.topBar span{
+    color: #424242;
+    margin: 0 .3em;
+}
+/* 顶部栏end */
+
+/* 导航栏 */

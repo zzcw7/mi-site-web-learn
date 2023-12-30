@@ -2,24 +2,29 @@ body {
     font: 14px/1.5 Helvetica Neue, Helvetica, Arial, Microsoft Yahei, Hiragino Sans GB, Heiti SC, WenQuanYi Micro Hei, sans-serif;
     color: #333;
 }
+
 /* 顶部栏 */
-.topBar{
+.topBar {
     width: 100%;
     height: 40px;
     background-color: #333;
 }
-.container{
+
+.container {
     width: 1226px;
     height: 40px;
     margin: 0 auto;
 }
-.topBar .list{
+
+.topBar .list {
     float: left;
 }
-.topBar .login{
+
+.topBar .login {
     float: right;
 }
-.topBar .shoppingCar{
+
+.topBar .shoppingCar {
     float: right;
     width: 120px;
     margin-left: 15px;
@@ -29,26 +34,126 @@ body {
     text-align: center;
     background-color: #424242;
 }
-.topBar .shoppingCar a{
+
+.topBar .shoppingCar a {
     height: 40px;
     width: 120px;
     display: inline-block;
 }
-.topBar a{
+
+.topBar a {
     color: #b0b0b0;
     font-size: 12px;
     /* 准换成行内块，这样就可以设置宽高 */
     display: inline-block;
     line-height: 40px;
 }
+
 /* 鼠标悬浮时改变颜色 */
-.topBar a:hover{
+.topBar a:hover {
     color: #fff;
 }
-.topBar span{
+
+.topBar span {
     color: #424242;
     margin: 0 .3em;
 }
+
 /* 顶部栏end */
 
 /* 导航栏 */
+.header {
+    height: 100px;
+}
+
+.header .site-logo {
+    float: left;
+    width: 62px;
+    margin-top: 20px;
+}
+
+.header .site-logo a {
+    display: inline-block;
+    height: 56px;
+    width: 56px;
+}
+
+.header .site-list {
+    float: left;
+    width: 850px;
+}
+
+.header .site-list ul {
+    width: 820px;
+    height: 88px;
+    padding: 12px 0 0 30px;
+    font-size: 16px;
+}
+
+.header .site-list ul li {
+    float: left;
+}
+
+.header .site-list ul li a {
+    display: block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+
+.header .site-list ul li a:hover {
+    color: #ff6700;
+}
+
+.header .site-list ul .category a {
+    padding: 0;
+}
+
+.header .site-search {
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+
+.header .site-search form {
+    position: relative;
+    width: 296px;
+    height: 50px;
+}
+
+.header .site-search form .search-text {
+    height: 49px;
+    width: 223px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    padding: 0 10px;
+    float: left;
+}
+
+.header .site-search form .search-btn {
+    float: left;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    margin-left: -1px;
+}
+
+.header .site-search form .search-word {
+    position: absolute;
+    top: 16px;
+    right: 65px;
+    font-size: 12px;
+
+}
+
+.header .site-search form .search-word a {
+    display: inline-block;
+    padding: 0 5px;
+    margin-left: 5px;
+    background-color: #eee;
+    color: #757575;
+}
+
+.header .site-search form .search-word a:hover {
+    background-color: #ff6700;
+    color: #fff;
+}

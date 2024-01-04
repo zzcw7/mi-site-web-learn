@@ -209,6 +209,12 @@ body {
 /* 导航栏end */
 
 /* 内容区 */
+.site-content{
+    height: 846px;
+}
+.site-content .container{
+    height: 678px;
+}
 .site-content .site-slider {
     position: relative;
     z-index: 2;
@@ -334,9 +340,146 @@ body {
 
 .content-sub {
     margin-top: 18px;
+    overflow: hidden;
 }
-
+.content-banner{
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+.content-banner .container{
+    height: 150px;
+}
+.content-banner a{
+    display: block;
+    width: 1226px;
+    height: 120px;
+}
+.content-banner a img{
+    display: block;
+    width: 1226px;
+    height: 120px;
+}
 /* 内容区end */
+/* 内容描述 */
+.content-detail{
+    padding-top: 22px;
+    background-color: #f5f5f5;
+    height: 1000px;
+}
+.content-detail .box-hd{
+    height: 58px;
+    position: relative;
+}
+.content-detail .box-hd h2{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.content-detail .box-hd .more{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.content-detail .box-hd .more a{
+    font-size: 16px;
+    line-height: 58px;
+    color: #424242;
+}
+.content-detail .box-hd .more a i{
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    background-color: #b0b0b0;
+    padding: 4px;
+    margin-left: 8px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 1px;
+}
+.content-detail .box-hd .more:hover a{
+    color: #ff6700;
+}
+.content-detail .box-hd .more:hover i{
+    background-color: #ff6700;
+}
+.box-bd .row-l{
+    float: left;
+    width: 234px;
+}
+.box-bd .row-r{
+    float: left;
+    width: 992px;
+}
+.box-bd .row-l a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.box-bd .row-l a img{
+    height: 614px;
+    width: 234px;
+}
+.box-bd .row-r ul{
+    overflow: hidden;
+}
+.box-bd .row-r ul li{
+    float: left;
+    height: 260;
+    width: 234px;
+    padding: 20px 0;
+    background: #fff;
+    position: relative;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.box-bd .row-r ul li .figure{
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+}
+.box-bd .row-r ul li .figure a{
+    display: block;
+}
+.box-bd .row-r ul li .figure a img{
+    width: 160px;
+    height: 160px;
+}
+.box-bd .row-r ul li .title{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+.box-bd .row-r ul li .title a{
+    color: #333;
+}
+.box-bd .row-r ul li .desc{
+    height: 18px;
+    font-size: 12px;
+    text-align: center;
+    color: #b0b0b0;
+    margin: 0 10px 10px;
+    overflow: hidden;
+    /* 不允许文本换行显示 */
+    white-space: nowrap;
+    /* 超出范围的文本用省略号 */
+    text-overflow: ellipsis;
+}
+.box-bd .row-r ul li .price{
+    text-align: center;
+    color: #ff6700;
+}
+.box-bd .row-r ul li .flag{
+    position: absolute;
+    top: 0;
+    left: 85px;
+    background-color: #83c44e;
+    color: #fff;
+    width: 64px;
+    height: 20px;
+    text-align: center;
+}
+/* 内容描述end */
 .clearfix::after {
     content: '';
     clear: both;
